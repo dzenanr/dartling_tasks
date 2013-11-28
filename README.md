@@ -72,8 +72,8 @@ different entry concept. Within a hierarchy a relationship is embedded.
 However, a relationship between 2 different hierarchies cannot be embedded
 without a redundancy of data. That is the reason that a reference oid is used
 in a hierarchy where the child concept is. In a hierarchy with a parent concept
-of the external relationship there is nothing, as in a relational model.
-The reference oid is used in the loading process to combine different
-hierarchies into an object (network) model with external relationships becoming
-internal.
+of the external relationship there is nothing indicating the relationship,
+as in the relational model. The reference oid is used in the loading process
+to combine different hierarchies into an object (network) model with external
+relationships becoming internal.
 
