@@ -1,0 +1,5 @@
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\db\dartling_tasks\model.json
+
+--genall C:\Users\ridjanod.FSA-RIDJANOD-2\dart\db\dartling_tasks dartling tasks
+
+--gengen C:\Users\ridjanod.FSA-RIDJANOD-2\dart\db\dartling_tasks dartling tasks
