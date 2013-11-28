@@ -1,0 +1,157 @@
+{
+   "domain":"Dartling",
+   "model":"Tasks",
+   "entries":[
+      {
+         "concept":"Employee",
+         "entities":[
+            {
+               "oid":"1385668912243",
+               "code":null,
+               "email":"dzenanr@gmail.com",
+               "lastName":"Ridjanovic",
+               "firstName":"Dzenan",
+               "tasks":[
+                  {
+                     "project":"1385668912254",
+                     "employee":"1385668912243",
+                     "oid":"1385668912259",
+                     "code":null,
+                     "description":"To maintain the content up to date with Dart."
+                  },
+                  {
+                     "project":"1385668912255",
+                     "employee":"1385668912243",
+                     "oid":"1385668912267",
+                     "code":null,
+                     "description":"To code the projects."
+                  }
+               ]
+            },
+            {
+               "oid":"1385668912249",
+               "code":null,
+               "email":"mfgiguere@gmail.com",
+               "lastName":"Fournier-Giguère",
+               "firstName":"Maxim",
+               "tasks":[
+
+               ]
+            },
+            {
+               "oid":"1385668912251",
+               "code":null,
+               "email":"ivo.balbaert@telenet.be",
+               "lastName":"Balbaert",
+               "firstName":"Ivo",
+               "tasks":[
+                  {
+                     "project":"1385668912255",
+                     "employee":"1385668912251",
+                     "oid":"1385668912266",
+                     "code":null,
+                     "description":"To write the content."
+                  }
+               ]
+            },
+            {
+               "oid":"1385668912252",
+               "code":null,
+               "email":"timur.ridjanovic@gmail.com",
+               "lastName":"Ridjanovic",
+               "firstName":"Timur",
+               "tasks":[
+                  {
+                     "project":"1385668912254",
+                     "employee":"1385668912252",
+                     "oid":"1385668912262",
+                     "code":null,
+                     "description":"To use and validate the content."
+                  },
+                  {
+                     "project":"1385668912255",
+                     "employee":"1385668912252",
+                     "oid":"1385668912264",
+                     "code":null,
+                     "description":"To read and validate the content."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "concept":"Project",
+         "entities":[
+            {
+               "oid":"1385668912254",
+               "code":null,
+               "name":"On Dart Education",
+               "description":"An education site to help beginners in the Dart programming language.",
+               "tasks":[
+                  {
+                     "project":"1385668912254",
+                     "employee":"1385668912243",
+                     "oid":"1385668912259",
+                     "code":null,
+                     "description":"To maintain the content up to date with Dart."
+                  },
+                  {
+                     "project":"1385668912254",
+                     "employee":"1385668912252",
+                     "oid":"1385668912262",
+                     "code":null,
+                     "description":"To use and validate the content."
+                  }
+               ]
+            },
+            {
+               "oid":"1385668912255",
+               "code":null,
+               "name":"Learning Dart",
+               "description":"A book that uses many Dart projects to explain the programming language",
+               "tasks":[
+                  {
+                     "project":"1385668912255",
+                     "employee":"1385668912252",
+                     "oid":"1385668912264",
+                     "code":null,
+                     "description":"To read and validate the content."
+                  },
+                  {
+                     "project":"1385668912255",
+                     "employee":"1385668912251",
+                     "oid":"1385668912266",
+                     "code":null,
+                     "description":"To write the content."
+                  },
+                  {
+                     "project":"1385668912255",
+                     "employee":"1385668912243",
+                     "oid":"1385668912267",
+                     "code":null,
+                     "description":"To code the projects."
+                  }
+               ]
+            },
+            {
+               "oid":"1385668912256",
+               "code":null,
+               "name":"On Dart Blog",
+               "description":"Introduction to some Dart projects from dzenanr.",
+               "tasks":[
+
+               ]
+            },
+            {
+               "oid":"1385668912257",
+               "code":null,
+               "name":"On Dart Google+",
+               "description":"To follow news about Dart projects.",
+               "tasks":[
+
+               ]
+            }
+         ]
+      }
+   ]
+}

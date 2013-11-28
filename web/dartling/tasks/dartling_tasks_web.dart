@@ -30,9 +30,11 @@ void main() {
   TasksEntries dartlingTasksEntries =
       dartlingModels.getModelEntries(DartlingRepo.dartlingTasksModelCode);
   String json = loadDartlingData(name);
+  print(json);
   if (json == null) {
     initDartlingTasks(dartlingTasksEntries);
     json = dartlingTasksEntries.toJson();
+    print(json);
     saveDartlingData(name, json);
   } else {
     dartlingTasksEntries.fromJson(json);
