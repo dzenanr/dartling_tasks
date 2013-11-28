@@ -32,4 +32,26 @@ relationships becoming internal.
 
 An alternative is to to start with the model and for each entry concept include
 all parent-child relationship directions with reference oids for child-parent
-directions. In this alternative data may show up several times.
+directions. In this alternative, data may show up several times in the json
+document of the model's data. In addition, there is no need for a distinction
+between internal and external relationships. By default, all relationships are
+internal. This alternative is used in the toJson and fromJson methods of the
+ModelEntries class that implements ModelEntriesApi in dartling.
+
+abstract class ModelEntriesApi {
+  Model get model;
+  Concept getConcept(String conceptCode);
+  EntitiesApi getEntry(String entryConceptCode);
+  EntityApi find(Oid oid);
+  EntityApi findInInternalTree(Concept entryConcept, Oid oid);
+
+  bool get isEmpty;
+  void clear();
+
+  String toJson();
+  fromJson(String json);
+}
+
+Thus, if you peek into model.json, you will see that both relationships are internal.
+
+How data are saved can be seen in saved_model_data.json.

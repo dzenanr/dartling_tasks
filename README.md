@@ -49,5 +49,6 @@ Run the default web app (web.dartling.tasks.dartling_tasks_web.html) to see live
 The first time you use it, the model is initialized and saved locally.
 The next time the model is loaded from the local storage.
 
-
+How data are saved can be seen in
+[saved_model_data.json](https://github.com/dzenanr/dartling_tasks/blob/master/saved_model_data.json).
 
