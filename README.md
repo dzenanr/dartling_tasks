@@ -1,6 +1,6 @@
 # dartling_tasks
 
-**Categories**: dartling, class models, many-to-many relationship.
+**Categories**: dartling, class models, many-to-many relationship, local storage.
 
 **Concepts**: Project, Employee, Task.
 
