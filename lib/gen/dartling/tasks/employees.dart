@@ -4,12 +4,14 @@ part of dartling_tasks;
  
 abstract class EmployeeGen extends ConceptEntity<Employee> { 
  
-  EmployeeGen(Concept concept) : super.of(concept) { 
+  EmployeeGen(Concept concept) { 
+    this.concept = concept;
     Concept taskConcept = concept.model.concepts.singleWhereCode("Task"); 
     setChild("tasks", new Tasks(taskConcept)); 
   } 
  
-  EmployeeGen.withId(Concept concept, String email) : super.of(concept) { 
+  EmployeeGen.withId(Concept concept, String email) { 
+    this.concept = concept;
     setAttribute("email", email); 
     Concept taskConcept = concept.model.concepts.singleWhereCode("Task"); 
     setChild("tasks", new Tasks(taskConcept)); 
@@ -37,7 +39,9 @@ abstract class EmployeeGen extends ConceptEntity<Employee> {
  
 abstract class EmployeesGen extends Entities<Employee> { 
  
-  EmployeesGen(Concept concept) : super.of(concept); 
+  EmployeesGen(Concept concept) {
+    this.concept = concept;
+  }
  
   Employees newEntities() => new Employees(concept); 
   Employee newEntity() => new Employee(concept); 
