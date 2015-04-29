@@ -1,5 +1,5 @@
 name: dartling_tasks
-version: 0.0.2
+version: 2.0.1
 author: Dzenan Ridjanovic
 description: dartling_tasks application that uses dartling for its model with a many-to-many relationship.
 homepage: http://ondart.me/
@@ -7,7 +7,5 @@ environment:
   sdk: '>=1.9.3 <2.0.0'
 dependencies:
   browser: any
-  dartling:
-    git: git://github.com/dzenanr/dartling.git
-  dartling_default_app:
-    git: git://github.com/dzenanr/dartling_default_app.git
+  dartling: any
+  dartling_default_app: any
